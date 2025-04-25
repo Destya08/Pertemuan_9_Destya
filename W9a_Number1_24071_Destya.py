@@ -17,7 +17,7 @@ class Person :
         return [t for t in cls.TITLES if t.startswith(startswith)]
     
     @staticmethod
-    def allowed_titles_ending_with(endwith) :
+    def allowed_titles_ending_with(endswith) :
         return [t for t in Person.TITLES if t.endswith(endswith)]
     
 jane = Person("Jane", "Smith")
